@@ -7,4 +7,4 @@ sudo nano /etc/rc.local
 #Set execution permission
 sudo chmod +x /etc/rc.local
 
-#All good, the pi zero should be avaliable to connect over ssh after boot completed
+#All good, the pi zero should be avaliable to connect over ssh after boot completed and the pi ip should display the Pi-pwn config page on port 80 

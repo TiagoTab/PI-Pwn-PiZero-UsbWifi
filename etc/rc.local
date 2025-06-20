@@ -1,0 +1,6 @@
+#!/bin/sh
+sudo wpa_supplicant -B -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf
+sudo dhclient wlan0
+echo "WIFI-CONNECTED"
+ip a show wlan0
+exit 0
